@@ -4,7 +4,7 @@ import ollama
 model_list = ollama.list()
 
 if "model_name" not in st.session_state:
-    st.session_state["model_name"] = "llama2:7b-chat"
+    st.session_state["model_name"] = "openhermes"
 
 if "messages" not in st.session_state:
     st.session_state.messages = []
